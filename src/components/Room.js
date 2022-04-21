@@ -22,7 +22,7 @@ export default function Room({room}) {
   )
 }
 
-Room.ropTypes = {
+Room.propTypes = {
   room:PropTypes.shape({
     name:PropTypes.string.isRequired,
     slug:PropTypes.string.isRequired,
