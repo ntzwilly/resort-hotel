@@ -8,10 +8,6 @@ import { RoomContext } from "../Context";
 export default class SingleRoom extends Component {
   constructor(props) {
     super(props);
-    // this.state = {
-    //   slug: this.props.match.params.slug,
-    //   defaultBcg,
-    // };
     console.log(this.props)
   }
   static contextType = RoomContext;
